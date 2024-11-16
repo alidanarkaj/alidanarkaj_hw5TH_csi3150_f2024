@@ -61,5 +61,5 @@ function applyFilters() {
   displayCars(filteredCars);
 }
 
-// Attach the function to the global scope
+// attach the function to the global scope
 window.applyFilters = applyFilters;

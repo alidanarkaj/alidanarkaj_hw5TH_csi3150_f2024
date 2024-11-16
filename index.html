@@ -8,6 +8,8 @@
     <!-- js links -->
     <script type="module" src="js/usedCars.js"></script>
     <script type="module" src="js/script.js"></script>
+    <!-- browser will treat the .js files as modules -->
+    <!-- automatically deferred when html doc has been fully parsed -->
     <title>Used Car Sales</title>
   </head>
 
@@ -65,13 +67,13 @@
           <option value="Red">Red</option>
           <option value="Gray">Gray</option>
           <option value="Green">Green</option>
-          <!-- Add more colors as needed -->
         </select>
       </label>
 
       <button onclick="applyFilters()">Apply Filters</button>
     </div>
 
+    <!-- displays the images of the cars on initial load -->
     <div id="carListings" class="car-listings"></div>
   </body>
 </html>
