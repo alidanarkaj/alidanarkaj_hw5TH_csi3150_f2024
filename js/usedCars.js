@@ -1,4 +1,4 @@
-const usedCars = [
+export const usedCars = [
   {
     year: 2018,
     make: "Toyota",
@@ -7,6 +7,7 @@ const usedCars = [
     price: 18000,
     color: "Silver",
     gasMileage: "25 mpg city, 35 mpg highway",
+    image: "assets/1.png",
   },
   {
     year: 2016,
@@ -16,6 +17,7 @@ const usedCars = [
     price: 14000,
     color: "White",
     gasMileage: "30 mpg city, 40 mpg highway",
+    image: "assets/2.png",
   },
   {
     year: 2017,
@@ -25,6 +27,7 @@ const usedCars = [
     price: 16000,
     color: "Black",
     gasMileage: "28 mpg city, 38 mpg highway",
+    image: "assets/3.png",
   },
   {
     year: 2019,
@@ -34,6 +37,7 @@ const usedCars = [
     price: 17000,
     color: "Blue",
     gasMileage: "27 mpg city, 36 mpg highway",
+    image: "assets/4.png",
   },
   {
     year: 2015,
@@ -43,6 +47,7 @@ const usedCars = [
     price: 12000,
     color: "Red",
     gasMileage: "25 mpg city, 37 mpg highway",
+    image: "assets/5.png",
   },
   // Additional entries:
   {
@@ -53,6 +58,7 @@ const usedCars = [
     price: 15000,
     color: "Gray",
     gasMileage: "29 mpg city, 40 mpg highway",
+    image: "assets/6.png",
   },
   {
     year: 2020,
@@ -62,6 +68,7 @@ const usedCars = [
     price: 16000,
     color: "Silver",
     gasMileage: "30 mpg city, 41 mpg highway",
+    image: "assets/7.png",
   },
   {
     year: 2014,
@@ -71,6 +78,7 @@ const usedCars = [
     price: 14000,
     color: "Green",
     gasMileage: "22 mpg city, 30 mpg highway",
+    image: "assets/8.png",
   },
   {
     year: 2017,
@@ -80,6 +88,7 @@ const usedCars = [
     price: 19000,
     color: "Blue",
     gasMileage: "24 mpg city, 31 mpg highway",
+    image: "assets/9.png",
   },
   {
     year: 2018,
@@ -89,6 +98,7 @@ const usedCars = [
     price: 17000,
     color: "White",
     gasMileage: "22 mpg city, 29 mpg highway",
+    image: "assets/10.png",
   },
   // Five more entries:
   {
@@ -99,6 +109,7 @@ const usedCars = [
     price: 24000,
     color: "Black",
     gasMileage: "19 mpg city, 30 mpg highway",
+    image: "assets/11.png",
   },
   {
     year: 2017,
@@ -108,6 +119,7 @@ const usedCars = [
     price: 32000,
     color: "Red",
     gasMileage: "19 mpg city, 27 mpg highway",
+    image: "assets/12.png",
   },
   {
     year: 2018,
@@ -117,6 +129,7 @@ const usedCars = [
     price: 38000,
     color: "Blue",
     gasMileage: "18 mpg city, 23 mpg highway",
+    image: "assets/13.png",
   },
   {
     year: 2019,
@@ -126,6 +139,7 @@ const usedCars = [
     price: 55000,
     color: "Black",
     gasMileage: "Electric (370 miles per charge)",
+    image: "assets/14.png",
   },
   {
     year: 2020,
@@ -135,6 +149,7 @@ const usedCars = [
     price: 68000,
     color: "White",
     gasMileage: "20 mpg city, 26 mpg highway",
+    image: "assets/15.png",
   },
   {
     year: 2017,
@@ -144,6 +159,7 @@ const usedCars = [
     price: 26000,
     color: "White",
     gasMileage: "21 mpg city, 30 mpg highway",
+    image: "assets/16.png",
   },
   {
     year: 2016,
@@ -153,7 +169,6 @@ const usedCars = [
     price: 27000,
     color: "Black",
     gasMileage: "23 mpg city, 34 mpg highway",
+    image: "assets/17.png",
   },
 ];
-
-module.exports = usedCars;

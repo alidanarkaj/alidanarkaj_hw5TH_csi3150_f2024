@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css link -->
+    <link rel="stylesheet" href="css/index-style.css" />
+    <!-- js links -->
+    <script type="module" src="js/usedCars.js"></script>
+    <script type="module" src="js/script.js"></script>
+    <title>Used Car Sales</title>
+  </head>
+
+  <body>
+    <h1>Used Car Sales</h1>
+
+    <div class="filters">
+      <label
+        >Year Range:
+        <input type="number" id="minYear" placeholder="Min Year" />
+        <input type="number" id="maxYear" placeholder="Max Year" />
+      </label>
+
+      <label
+        >Make:
+        <select id="make" multiple>
+          <option value="Toyota">Toyota</option>
+          <option value="Honda">Honda</option>
+          <option value="Ford">Ford</option>
+          <option value="Nissan">Nissan</option>
+          <option value="Chevrolet">Chevrolet</option>
+          <option value="Volkswagen">Volkswagen</option>
+          <option value="Hyundai">Hyundai</option>
+          <option value="Subaru">Subaru</option>
+          <option value="Mazda">Mazda</option>
+          <option value="Kia">Kia</option>
+          <option value="Dodge">Dodge</option>
+          <option value="Cadillac">Cadillac</option>
+          <option value="Jaguar">Jaguar</option>
+          <option value="Tesla">Tesla</option>
+          <option value="Porsche">Porsche</option>
+          <option value="Lexus">Lexus</option>
+          <option value="BMW">BMW</option>
+        </select>
+      </label>
+
+      <label
+        >Max Mileage:
+        <input type="number" id="maxMileage" placeholder="Max Mileage" />
+      </label>
+
+      <label
+        >Price Range:
+        <input type="number" id="minPrice" placeholder="Min Price" />
+        <input type="number" id="maxPrice" placeholder="Max Price" />
+      </label>
+
+      <label
+        >Color:
+        <select id="color" multiple>
+          <option value="Silver">Silver</option>
+          <option value="White">White</option>
+          <option value="Black">Black</option>
+          <option value="Blue">Blue</option>
+          <option value="Red">Red</option>
+          <option value="Gray">Gray</option>
+          <option value="Green">Green</option>
+          <!-- Add more colors as needed -->
+        </select>
+      </label>
+
+      <button onclick="applyFilters()">Apply Filters</button>
+    </div>
+
+    <div id="carListings" class="car-listings"></div>
+  </body>
 </html>
